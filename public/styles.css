@@ -1,0 +1,35 @@
+body {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  padding-top: 50px;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.activeImage .image {
+  margin: auto;
+  width: 640px;
+  margin-top: 50px;
+}
+
+.activeImage .actions {
+  text-align: right;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}

@@ -18,6 +18,8 @@ app.use(webpackMiddleware(webpack(require('./webpack.config.js'))));
 // Serve your API assets here. You'll need to include the post route file.
 app.use(express.static('public'));
 
+app.use('/api/images', require('./api/images'));
+
 // Include your API routes here
 // app.use('/api/name', require('./api/name'));
 
